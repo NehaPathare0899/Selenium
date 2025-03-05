@@ -1,49 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T09:21:30 IST" name="Default suite" finished-at="2025-03-04T09:21:56 IST" duration-ms="26099">
+  <suite started-at="2025-03-04T13:36:06 IST" name="Default suite" finished-at="2025-03-04T13:36:27 IST" duration-ms="20924">
     <groups>
     </groups>
-    <test started-at="2025-03-04T09:21:30 IST" name="Default test" finished-at="2025-03-04T09:21:56 IST" duration-ms="26099">
-      <class name="Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:30 IST" name="beforeSuite" finished-at="2025-03-04T09:21:30 IST" duration-ms="28" status="PASS">
+    <test started-at="2025-03-04T13:36:06 IST" name="Default test" finished-at="2025-03-04T13:36:27 IST" duration-ms="20924">
+      <class name="Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:06 IST" name="beforeSuite" finished-at="2025-03-04T13:36:06 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:30 IST" name="beforeTest" finished-at="2025-03-04T09:21:30 IST" duration-ms="455" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:06 IST" name="beforeTest" finished-at="2025-03-04T13:36:06 IST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:30 IST" name="beforeClass" finished-at="2025-03-04T09:21:36 IST" duration-ms="5634" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:07 IST" name="beforeClass" finished-at="2025-03-04T13:36:13 IST" duration-ms="6745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:36 IST" name="beforeMethod" finished-at="2025-03-04T09:21:45 IST" duration-ms="9516" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:13 IST" name="beforeMethod" finished-at="2025-03-04T13:36:23 IST" duration-ms="9741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="deleteAddress()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:45 IST" name="deleteAddress" finished-at="2025-03-04T09:21:55 IST" duration-ms="9140" status="PASS">
+        <test-method signature="addAddresses()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:23 IST" name="addAddresses" finished-at="2025-03-04T13:36:25 IST" duration-ms="2440" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6179dc0876898701b8ca44593b97961f, clickElement {id=f.E38E24E3044B9FC93418775E11D68E1F.d.8EB19C8963ACDF9688C85A4D41AE669A.e.99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56430/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6179dc0876898701b8ca44593b97961f)] -> xpath: //button[text()='Add Address']]
+Session ID: 6179dc0876898701b8ca44593b97961f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6179dc0876898701b8ca44593b97961f, clickElement {id=f.E38E24E3044B9FC93418775E11D68E1F.d.8EB19C8963ACDF9688C85A4D41AE669A.e.99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56430/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6179dc0876898701b8ca44593b97961f)] -> xpath: //button[text()='Add Address']]
+Session ID: 6179dc0876898701b8ca44593b97961f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not.addAddresses(TC_001_verify_user_able_to_add_address_or_not.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:55 IST" name="afterMethod" finished-at="2025-03-04T09:21:55 IST" duration-ms="767" status="PASS">
+        </test-method> <!-- addAddresses -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:25 IST" name="afterMethod" finished-at="2025-03-04T13:36:27 IST" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:55 IST" name="afterClass" finished-at="2025-03-04T09:21:56 IST" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:27 IST" name="afterClass" finished-at="2025-03-04T13:36:27 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:56 IST" name="afterTest" finished-at="2025-03-04T09:21:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:27 IST" name="afterTest" finished-at="2025-03-04T13:36:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not@747f281]" started-at="2025-03-04T09:21:56 IST" name="afterSuite" finished-at="2025-03-04T09:21:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not@f79e]" started-at="2025-03-04T13:36:27 IST" name="afterSuite" finished-at="2025-03-04T13:36:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- Com.shoppersstack_TestScript.TC_002_verify_user_able_to_delete_address_or_not -->
+      </class> <!-- Com.shoppersstack_TestScript.TC_001_verify_user_able_to_add_address_or_not -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,7 +9,7 @@ import com.shoppersstack_POM.AddressFormPage;
 import com.shoppersstack_POM.MyAddressesPage;
 import com.shoppersstack_POM.MyProfilePage;
 
-public class TC_001_verify_user_able_to_add_address_or_not extends Base_Test {
+public class TC_001_verify_user_able_to_add_address_or_not_Test extends Base_Test {
 	@Test
 	public void addAddresses() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
@@ -20,6 +20,7 @@ public class TC_001_verify_user_able_to_add_address_or_not extends Base_Test {
 		myProfilePage.getMyAddressesBtn().click();
 
 		MyAddressesPage getMyAddressesPage = new MyAddressesPage(driver);
+		Thread.sleep(2000);
 		getMyAddressesPage.getAddAddressBtn().click();
 
 		AddressFormPage addressFromPage = new AddressFormPage(driver);
